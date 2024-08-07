@@ -111,14 +111,22 @@ h1{
         margin-right: auto;
     }
     .footer {
+        align-items: center;
         justify-content: space-between;
     }
     .footer p {
-        font-size: 30px;
+        font-size: 15px !important;
         margin-left: 10px !important;
+        width: fit-content;
     }
     .footer .logos {
-        margin-left: 0 !important;
+        margin-left: 10px !important;
         margin-right: 0 !important;
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .footer .logos i {
+        font-size: 20px;
     }
 }
